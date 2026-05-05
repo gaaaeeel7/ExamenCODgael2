@@ -22,3 +22,7 @@ Se crea la rama `interface-clean` y se usa esa para la integración en `main`.
 
 
 
+### 4.Creacion de la Rama Limpia
+
+- Se crea una nueva rama desde el último commit válido.
+- Se evita modificar la rama original
