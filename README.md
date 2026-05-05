@@ -33,6 +33,9 @@ Se crea la rama `interface-clean` y se usa esa para la integración en `main`.
 - Esta rama contiene la versión corregida sin el último commit erróneo de interface.
 
 
+- git checkout -b interface_limpia "commit"
+
+
 ### 6. TAG DE VERSION
 
 Creación del tag
