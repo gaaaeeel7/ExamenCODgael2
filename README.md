@@ -8,4 +8,11 @@
 - Traer todas las ramas del remoto
 
 
+## 2. Creacion Rama Readme
+
+Despues de clonar el repositorio, creo la rama Readme con el Readme.md
+
+
+
+
 
