@@ -22,3 +22,28 @@ Se crea la rama `interface-clean` y se usa esa para la integración en `main`.
 
 
 
+### 4.Creacion de la Rama Limpia
+
+- Se crea una nueva rama desde el último commit válido.
+- Se evita modificar la rama original
+
+### 5. Merge de la rama limpia a main
+
+- Se realiza la integración de la rama interface_limpia en main.
+- Esta rama contiene la versión corregida sin el último commit erróneo de interface.
+
+
+- git checkout -b interface_limpia "commit"
+
+
+### 6. TAG DE VERSION
+
+Creación del tag
+
+
+`git checkout main`
+`git tag v1.0`
+`git push origin v1.0`
+
+Se marca el commit final como versión estable v1.0
+Permite crear la release en GitHub a partir de esta versión
