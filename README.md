@@ -26,3 +26,8 @@ Se crea la rama `interface-clean` y se usa esa para la integración en `main`.
 
 - Se crea una nueva rama desde el último commit válido.
 - Se evita modificar la rama original
+
+### 5. Merge de la rama limpia a main
+
+- Se realiza la integración de la rama interface_limpia en main.
+- Esta rama contiene la versión corregida sin el último commit erróneo de interface.
