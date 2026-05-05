@@ -31,3 +31,5 @@ Se crea la rama `interface-clean` y se usa esa para la integración en `main`.
 
 - Se realiza la integración de la rama interface_limpia en main.
 - Esta rama contiene la versión corregida sin el último commit erróneo de interface.
+
+
