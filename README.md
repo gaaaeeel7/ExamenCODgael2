@@ -33,3 +33,14 @@ Se crea la rama `interface-clean` y se usa esa para la integración en `main`.
 - Esta rama contiene la versión corregida sin el último commit erróneo de interface.
 
 
+### 6. TAG DE VERSION
+
+Creación del tag
+
+
+`git checkout main`
+`git tag v1.0`
+`git push origin v1.0`
+
+Se marca el commit final como versión estable v1.0
+Permite crear la release en GitHub a partir de esta versión
